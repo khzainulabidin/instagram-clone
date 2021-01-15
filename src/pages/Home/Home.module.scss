@@ -1,0 +1,29 @@
+.content{
+  padding: 90px 15% 5% 15%;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+
+  @media all and (max-width: 768px) {
+    padding: 60px 0.5% 2% 0.5%;
+    grid-template-columns: 1fr;
+  }
+
+  @media all and (max-width: 996px) {
+    grid-template-columns: 1fr;
+  }
+
+  .mainContent{
+    @media all and (max-width: 768px) {
+      width: 96vw;
+      overflow-x: hidden;
+    }
+  }
+
+  .sideContent{
+    display: flex;
+
+    @media all and (max-width: 996px) {
+      display: none;
+    }
+  }
+}

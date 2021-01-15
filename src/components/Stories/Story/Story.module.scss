@@ -1,0 +1,32 @@
+.story{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 2%;
+  cursor: pointer;
+
+  :last-child{
+    margin-right: 2%;
+  }
+
+  img{
+    width: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 0 2px #CD489E;
+  }
+
+  p{
+    font-size: 0.7rem;
+    margin-top: 5%;
+    max-width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+  }
+}

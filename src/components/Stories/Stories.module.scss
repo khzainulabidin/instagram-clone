@@ -1,0 +1,25 @@
+.container{
+  background: #FFFFFF;
+  height: 120px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  /*.icons{
+    display: flex;
+
+    div{
+      height: 20px;
+      width: 20px;
+      background: yellow;
+      padding: 2px;
+      border-radius: 50%;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }*/
+}
